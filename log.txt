@@ -1,0 +1,22 @@
+2025-06-09 16:04:53,857 INFO: пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ...
+2025-06-09 16:04:53,858 INFO: Start polling
+2025-06-09 16:04:58,381 INFO: Run polling for bot @CF_Round_Tracker_bot id=7722741850 - 'CF Round Tracker'
+2025-06-09 16:07:56,352 INFO: Update id=61947074 is handled. Duration 223 ms by bot id=7722741850
+2025-06-09 16:07:59,416 ERROR: пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+Traceback (most recent call last):
+  File "c:\cf_notifier\bot.py", line 79, in handle_callback
+    dt = types.datetime.datetime.fromtimestamp(start).strftime('%Y-%m-%d %H:%M')
+         ^^^^^^^^^^^^^^
+AttributeError: module 'aiogram.types' has no attribute 'datetime'. Did you mean: 'DateTime'?
+2025-06-09 16:07:59,545 INFO: Update id=61947075 is handled. Duration 440 ms by bot id=7722741850
+2025-06-09 16:19:01,890 INFO: Polling stopped
+2025-06-09 16:19:01,908 INFO: Polling stopped for bot @CF_Round_Tracker_bot id=7722741850 - 'CF Round Tracker'
+2025-06-09 16:19:13,771 INFO: Запуск бота и цикла уведомлений...
+2025-06-09 16:19:13,771 INFO: Start polling
+2025-06-09 16:19:16,681 INFO: Run polling for bot @CF_Round_Tracker_bot id=7722741850 - 'CF Round Tracker'
+2025-06-09 16:19:24,572 INFO: Update id=61947076 is handled. Duration 216 ms by bot id=7722741850
+2025-06-09 16:19:28,721 INFO: Update id=61947077 is handled. Duration 922 ms by bot id=7722741850
+2025-06-09 16:19:44,884 INFO: Update id=61947078 is handled. Duration 112 ms by bot id=7722741850
+2025-06-09 16:19:48,764 INFO: Update id=61947079 is handled. Duration 223 ms by bot id=7722741850
+2025-06-09 16:19:56,142 INFO: Update id=61947080 is handled. Duration 634 ms by bot id=7722741850
+2025-06-09 16:20:46,164 INFO: Update id=61947081 is handled. Duration 94 ms by bot id=7722741850
